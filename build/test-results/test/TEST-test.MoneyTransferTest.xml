@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.MoneyTransferTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-07T06:46:37" hostname="Hewlett" time="147.814">
+  <properties/>
+  <testcase name="checkSecondCardBalance()" classname="test.MoneyTransferTest" time="119.059"/>
+  <testcase name="checkFirstCardBalance()" classname="test.MoneyTransferTest" time="9.658"/>
+  <testcase name="shouldTransferMoneyFromFirstCard()" classname="test.MoneyTransferTest" time="7.01"/>
+  <testcase name="checkSecondCardBalanceIfAmountDouble()" classname="test.MoneyTransferTest" time="6.606"/>
+  <testcase name="shouldTransferMoneyFromSecondCard()" classname="test.MoneyTransferTest" time="5.472"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[февр. 07, 2020 9:46:37 AM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29345
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581058068.777][WARNING]: Timed out connecting to Chrome, retrying...
+февр. 07, 2020 9:48:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+февр. 07, 2020 9:48:13 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+февр. 07, 2020 9:48:15 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=WINDOWS
+февр. 07, 2020 9:48:15 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.3.1
+февр. 07, 2020 9:48:15 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+февр. 07, 2020 9:48:15 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on WINDOWS (98ace19c28e573baabcdc44be57e689d)
+]]></system-err>
+</testsuite>
